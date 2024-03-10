@@ -24,11 +24,11 @@ bash
 mvn spring-boot:run
 The API should now be running at http://localhost:8080.
 
-CRUD Operations
+CRUD Operations --
 Create: Add a new project using the endpoint POST /project.
 Read: Retrieve all projects with GET /projects and a single project by ID with GET /project/{id}.
 Update: Update an existing project with PUT /project/{id}.
 Delete: Delete a project by ID using DELETE /project/{id}.
 
-Exception Handling
+Exception Handling --
 Global exception handling is implemented to manage exceptions and provide meaningful error messages.
